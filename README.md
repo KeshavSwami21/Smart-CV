@@ -2,7 +2,7 @@
 
 **An AI-powered resume enhancement tool leveraging NLP & ML for intelligent career advancement.**
 
-![Smart CV](https://your-image-url.com) *(Optional: Add an image if available)*
+![Smart CV](templates/web-screenshot-07-03-2025.jpg)
 
 ## 📌 Table of Contents
 - [About the Project](#about-the-project)
