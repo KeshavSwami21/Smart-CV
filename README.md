@@ -155,14 +155,3 @@ We welcome contributions! 🎉
 3. **Commit changes** (`git commit -m "Added feature"`).  
 4. **Push to GitHub** (`git push origin feature-branch`).  
 5. **Open a Pull Request**.  
-
----
-
-## 📝 License
-This project is **open-source** under the **MIT License**.
-
----
-
-## 📩 Contact
-🔗 **GitHub Repo:** [Smart-CV](https://github.com/KeshavSwami21/Smart-CV)  
-📧 **Email:** [Your Email]
