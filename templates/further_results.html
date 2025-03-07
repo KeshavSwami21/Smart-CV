@@ -1,0 +1,147 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Further Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("{% static 'images/back_1.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        }
+
+        .result {
+            margin-bottom: 20px;
+            padding: 20px;
+            /* border: 1px solid #333; */
+            border-radius: 5px;
+            background-color: #181616;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .section-content {
+            padding: 10px;
+            /* border: 1px solid #ccc; */
+            border: 1px solid #555;
+            /* Darker border color */
+            /* border-radius: 4px; */
+            background-color: #2a2a2a;
+            border-radius: 5px;
+            /* background-color: #f9f9f9; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skill-button {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 5px;
+            border: 3px solid #45f3ff;
+            border-radius: 5px;
+            cursor: pointer;
+            background: transparent;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume-skill {
+
+            color: white;
+        }
+
+        .selected {
+            border: 3px solid #28a745;
+
+        }
+
+
+        .unselected-skill {
+            border: 3px solid #dc3545;
+            color: #fff;
+        }
+
+        .non-working {
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Further Results</h1>
+    <div class="result">
+        <div class="section">
+            <p class="section-title">Updated Matching Percentage</p>
+            <div class="section-content">
+                <h2 style="color: #45f3ff;">{{ updated_matching_percentage }}%</h2>
+            </div>
+        </div>
+        <div class="section">
+            <p class="section-title">Resume Skills (Including Selected Skills)</p>
+            <div class="section-content">
+                {% for skill in resume_data.resume_skills %}
+                {% if skill %}
+                <span class="skill-button resume-skill non-working" title="{{ skill }}">{{ skill }}</span>
+                {% endif %}
+                {% endfor %}
+                {% for skill in selected_skills %}
+                <span class="skill-button selected non-working" style="color: white;" title="{{ skill }}">{{ skill }}</span>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Matched Skills With Job Description (Including Selected Skills)</p>
+            <div class="section-content">
+                {% for skill in resume_data.matching_skills %}
+                {% if skill %}
+                <span class="skill-button resume-skill non-working" title="{{ skill }}">{{ skill }}</span>
+                {% endif %}
+                {% endfor %}
+                {% for skill in selected_skills %}
+                <span class="skill-button selected non-working" style="color: white;" title="{{ skill }}">{{ skill }}</span>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Unselected Skills (Based on Job Description)</p>
+            <div class="section-content">
+                {% for skill in unselected_skills %}
+                <span class="skill-button unselected-skill non-working" title="{{ skill }}">{{ skill }}</span>
+                {% endfor %}
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

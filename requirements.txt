@@ -1,0 +1,5 @@
+Django==5.0
+pandas==2.0.0
+python-docx==0.8.11
+pdfminer.six==20221105
+pywin32==306

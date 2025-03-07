@@ -1,0 +1,47 @@
+**Job Title:** AI/ML Engineer
+
+**Location:** [Specify Location]
+
+**Company:** Samsung
+
+**About Samsung:**  
+Samsung is a global leader in technology, driving innovation in consumer electronics, semiconductors, and AI-driven solutions. Our AI research and development teams are dedicated to advancing artificial intelligence technologies to enhance user experiences, optimize operations, and pioneer cutting-edge solutions across various industries.
+
+**Job Overview:**  
+Samsung is looking for an experienced AI/ML Engineer to join our dynamic team. The ideal candidate will have a strong background in artificial intelligence, machine learning, and deep learning, along with hands-on experience in deploying AI solutions in real-world applications. The role involves designing, developing, and optimizing AI-driven solutions for Samsung’s next-generation products and services.
+
+**Key Responsibilities:**  
+- Develop and implement AI/ML models for various applications, including computer vision, natural language processing (NLP), and recommendation systems.  
+- Optimize deep learning models for deployment on edge devices, mobile platforms, and cloud infrastructure.  
+- Collaborate with cross-functional teams to integrate AI technologies into Samsung’s products and services.  
+- Conduct research to stay updated with the latest advancements in AI and ML, and apply innovative techniques to enhance existing models.  
+- Utilize large-scale datasets for training, testing, and fine-tuning machine learning models.  
+- Design and implement scalable AI architectures and pipelines.  
+- Perform model evaluation, debugging, and performance tuning to improve accuracy and efficiency.  
+- Document AI solutions, frameworks, and best practices for internal and external stakeholders.  
+
+**Required Qualifications:**  
+- Bachelor’s or Master’s degree in Computer Science, Artificial Intelligence, Machine Learning, or a related field. A Ph.D. is a plus.  
+- Strong proficiency in programming languages such as Python, C++, or Java.  
+- Hands-on experience with machine learning frameworks like TensorFlow, PyTorch, Scikit-learn, or Keras.  
+- Knowledge of deep learning architectures, including CNNs, RNNs, Transformers, and GANs.  
+- Experience with cloud computing platforms (AWS, Google Cloud, Azure) and distributed computing frameworks.  
+- Understanding of data preprocessing, feature engineering, and model deployment techniques.  
+- Proficiency in using tools like Docker, Kubernetes, and ONNX for AI model deployment.  
+- Excellent problem-solving skills, analytical thinking, and ability to work in a fast-paced environment.  
+
+**Preferred Qualifications:**  
+- Experience in AI applications such as autonomous systems, speech recognition, and robotics.  
+- Familiarity with hardware acceleration techniques using GPUs and TPUs.  
+- Contributions to open-source AI/ML projects or research publications in top-tier conferences/journals.  
+
+**Benefits & Perks:**  
+- Competitive salary and performance-based bonuses.  
+- Health and wellness benefits, including medical, dental, and vision coverage.  
+- Opportunities for career growth, training programs, and mentorship.  
+- A dynamic and inclusive work environment with cutting-edge AI research opportunities.  
+
+**How to Apply:**  
+Interested candidates can submit their resume and a cover letter highlighting their relevant experience to [Samsung’s Career Portal/Email].
+
+Join Samsung and be a part of the AI revolution that is shaping the future of technology!
